@@ -8,7 +8,7 @@
 		"vscode": {
 			"extensions": [
 				"donjayamanne.python-extension-pack",
-				"formulahendry.code-runner",
+				"formulahendry.code-runner"
 				// "James-Yu.latex-workshop"
 			]
 		}
@@ -19,7 +19,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "python -m venv .venv && 'source .venv/bin/ activate' && pip install -r requirements.txt"
+	"postCreateCommand": "python -m venv .venv && /bin/bash -c source .venv/bin/activate && pip install -r requirements.txt"
 	// "postCreateCommand": "pip install --user -r requirements.txt",
 
 	// Configure tool-specific properties.
