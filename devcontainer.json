@@ -1,0 +1,4 @@
+{
+    "name": "Python Environment",
+    "image": "python:3.9"
+}
