@@ -9,7 +9,11 @@
 				"formulahendry.code-runner"
 			],
 			"settings": {
-				"python.setInterpreterPath": ".venv/bin/python"
+				"python.setInterpreterPath": ".venv/bin/python",
+				
+				"code-runner.executorMap": {
+					"python": ". .venv/bin/activate && python -u"
+				}
 			}
 		}
 	},
