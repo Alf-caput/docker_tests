@@ -9,12 +9,10 @@
 				"formulahendry.code-runner"
 			],
 			"settings": {
-				"python.setInterpreter": ".venv/bin/python"
+				"python.setInterpreterPath": ".venv/bin/python"
 			}
 		}
 	},
-
-	"forwardPorts": [3000],
 
 	"postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt"
 }
