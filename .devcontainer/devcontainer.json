@@ -7,10 +7,7 @@
 				"donjayamanne.python-extension-pack",
 				"ms-toolsai.jupyter",
 				"formulahendry.code-runner"
-			],
-			"settings": {
-				"python.setInterpreterPath": ".venv/bin/python"
-			}
+			]
 		}
 	},
 
